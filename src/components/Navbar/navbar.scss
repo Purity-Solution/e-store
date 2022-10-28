@@ -1,0 +1,66 @@
+.Heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff !important;
+  z-index: 999;
+  padding: 1rem 2rem 0;
+  .Logo {
+    .image-logo {
+      width: 150px;
+    }
+  }
+  .Menues {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: azure;
+
+    ul {
+      // color: white;
+      gap: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: #666;
+      li:hover {
+        color: red;
+        cursor: pointer;
+      }
+    }
+  }
+  .Icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+.Menues {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: azure;
+
+  ul {
+    // color: white;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    li:hover {
+      color: #666;
+      cursor: pointer;
+    }
+  }
+}
