@@ -31,20 +31,6 @@ const Navbar = () => {
             ))}
           </div>
         </div>
-
-        {/* <div className="Icons">
-          <div className="Cart">
-            <MdShoppingCart />
-          </div>
-          <div className="Login">
-            <Link to="/log">
-              <GoPerson />
-            </Link>
-          </div>
-          <div className="Search">
-            <GoSearch />
-          </div>
-        </div> */}
       </div>
     </div>
   );
