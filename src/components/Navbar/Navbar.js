@@ -1,9 +1,7 @@
 import React from "react";
-import { MdShoppingCart } from "react-icons/md";
-import { GoPerson } from "react-icons/go";
-import { GoSearch } from "react-icons/go";
 import { Link } from "react-router-dom";
-import './navbar.scss';
+import "./navbar.scss";
+import { navbarData } from "../../helper/constants";
 const Navbar = () => {
   return (
     <div>
@@ -17,30 +15,36 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div className="Menues">
-          <ul>
-            <li>
-              
-              <Link to="/Products">OUR PRODUCTS</Link>
-            </li>
-            <li>
-              
-              <Link to="/Contact">CONTACT</Link>
-            </li>
-          </ul>
+        <div className="menuIcon">
+          <div className="menu">
+            {navbarData.map((item) => (
+              <Link className="menuItem" to={item.link}>
+                {item.name}
+              </Link>
+            ))}
+          </div>
+          <div className="icon">
+            {navbarData.map((item) => (
+              <Link className="iconItem" to={item.links}>
+                {item.icon}
+              </Link>
+            ))}
+          </div>
         </div>
-        <div className="Icons">
+
+        {/* <div className="Icons">
           <div className="Cart">
             <MdShoppingCart />
           </div>
           <div className="Login">
-          <Link to='/log'><GoPerson /></Link>
-          
+            <Link to="/log">
+              <GoPerson />
+            </Link>
           </div>
           <div className="Search">
-          <GoSearch />
+            <GoSearch />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -5,62 +5,65 @@
   background: #fff !important;
   z-index: 999;
   padding: 1rem 2rem 0;
+  box-shadow: 0 0 5px rgb(0 0 0 / 30%);
   .Logo {
     .image-logo {
       width: 150px;
     }
   }
-  .Menues {
+  .menuIcon {
     display: flex;
     justify-content: center;
     align-items: center;
-    // background-color: azure;
-
-    ul {
-      // color: white;
-      gap: 16px;
+    gap: 361px;
+    flex-direction: row;
+    .menu {
+      gap: 14px;
       display: flex;
       justify-content: center;
       align-items: center;
-      list-style: none;
-      font-size: 14px;
-      text-transform: uppercase;
-      font-weight: 500;
-      color: #666;
-      li:hover {
-        color: red;
-        cursor: pointer;
+      .menuItem {
+        color: #666;
+        text-decoration: none;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+    }
+    .icon {
+      gap: 14px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .iconItem {
+        color: #666;
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 500;
       }
     }
   }
-  .Icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-  }
 }
+//   .menu {
+//     display: flex;
+//     gap: 16px;
+//     align-items: center;
 
-.Menues {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  // background-color: azure;
-
-  ul {
-    // color: white;
-    gap: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 500;
-
-    li:hover {
-      color: #666;
-      cursor: pointer;
-    }
-  }
-}
+//     .menuItem {
+//       color: #666;
+//       text-decoration: none;
+//       font-size: 12px;
+//       text-transform: uppercase;
+//       font-weight: 500;
+//     }
+//   }
+// }
+// .Icons {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 16px;
+//   font-size: 12px;
+//   text-transform: uppercase;
+//   font-weight: 500;

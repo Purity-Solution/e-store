@@ -6,15 +6,19 @@ import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import Products from "./components/Products/Products";
 import Login from "./components/Login/Login";
+import Cart from "./components/cart/Cart";
+import Search from "./components/search/Search";
 function App() {
   return (
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/Contact" element={<Contact />}/>
-        <Route path="/Products" element={<Products />}/>
-        <Route path="/log" element={<Login />}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Products" element={<Products />} />
+        <Route path="/log" element={<Login />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/search" element={<Search />} />
       </Routes>
     </div>
   );
