@@ -4,7 +4,7 @@
   align-items: center;
   background: #fff !important;
   z-index: 999;
-  padding: 1rem 2rem 0;
+  padding: 1rem 2rem 5px;
   box-shadow: 0 0 5px rgb(0 0 0 / 30%);
   .Logo {
     .image-logo {
@@ -28,19 +28,34 @@
         font-size: 12px;
         text-transform: uppercase;
         font-weight: 700;
+        &:hover {
+          color: #e65550;
+        }
       }
     }
     .icon {
-      gap: 14px;
+      gap: 30px;
       display: flex;
       justify-content: center;
       align-items: center;
       .iconItem {
         color: #666;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 22px;
         text-transform: uppercase;
         font-weight: 500;
+        &:hover {
+          color: #e65550;
+        }
+      }
+      .cartIcon {
+        position: relative;
+        span {
+          position: absolute;
+          font-size: 10px;
+          right: -12px;
+          background-color: #e65550;
+        }
       }
     }
   }
