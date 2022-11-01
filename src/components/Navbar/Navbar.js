@@ -15,7 +15,6 @@ const Navbar = () => {
     function handleClickOutside(event) {
       if (searchIconRef && !searchIconRef?.current?.contains(event.target)) {
         setShowSearch(false);
-        debugger;
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
