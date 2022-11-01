@@ -13,7 +13,8 @@ const Navbar = () => {
 
   useEffect(() => {
     function handleClickOutside(event) {
-      if (searchIconRef && !searchIconRef?.current?.contains(event.target)) {
+      let isEvent = searchIconRef?.current?.contains(event.target);
+      if (searchIconRef && !isEvent) {
         setShowSearch(false);
       }
     }
@@ -56,7 +57,7 @@ const Navbar = () => {
                 9
               </Badge>
             </Link>
-            <Link className="iconItem">
+            <Link className="iconItem" ref={searchIconRef}>
               <GoSearch
                 size={24}
                 onClick={(e) => {
