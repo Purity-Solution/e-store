@@ -75,6 +75,9 @@
         .account {
           text-align: center;
           .accountDiscription {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             color: #666;
             font-size: 80%;
             font-weight: 500;
@@ -88,4 +91,6 @@
       }
     }
   }
+}
+@media n {
 }

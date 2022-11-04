@@ -7,7 +7,7 @@ import Contact from "./components/Contact/Contact";
 import Products from "./components/Products/Products";
 import Login from "./components/Login/Login";
 import Cart from "./components/cart/Cart";
-import Search from "./components/search/Search";
+import Register from "./components/Register/Register";
 function App() {
   return (
     <div>
@@ -18,7 +18,7 @@ function App() {
         <Route path="/Products" element={<Products />} />
         <Route path="/log" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/search" element={<Search />} />
+        <Route path="/reg" element={<Register />} />
       </Routes>
     </div>
   );

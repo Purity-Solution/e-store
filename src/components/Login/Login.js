@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import "./Login.scss";
 const Login = () => {
   return (
@@ -41,7 +41,9 @@ const Login = () => {
             <div className="col-sm-12 account">
               <p className="accountDiscription">
                 Don't have an account?
-                <span>Register</span>
+                <Nav.Link href="reg">
+                  <span>Register</span>
+                </Nav.Link>
               </p>
             </div>
           </div>
