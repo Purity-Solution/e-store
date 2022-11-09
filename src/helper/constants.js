@@ -15,6 +15,6 @@ export const navbarData = [
 
   {
     icon: <HiOutlineUser />,
-    links: "/log",
+    links: "/login",
   },
 ];
