@@ -9,12 +9,12 @@ export const navbarData = [
     link: "/products",
   },
   {
-    name: "Contact",
+    name: "contact",
     link: "/contact",
   },
 
   {
     icon: <HiOutlineUser />,
-    links: "/login",
+    link: "/login",
   },
 ];
