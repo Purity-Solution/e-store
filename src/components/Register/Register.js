@@ -1,9 +1,11 @@
+import Footer from "../footer/Footer";
 import React from "react";
 import "./Register.scss";
 import Button from "../Button/Button";
 import { Link } from "react-router-dom";
 const Register = () => {
   return (
+<<<<<<< HEAD
     <div className="registerForm">
       <div className="reg">
         <span>Register</span>
@@ -160,6 +162,10 @@ const Register = () => {
           </div>
         </div>
       </div>
+=======
+    <div>
+      <Footer />
+>>>>>>> 25c3b328e5d3ec47d2c8af5f2fa47bd9a69dea05
     </div>
   );
 };

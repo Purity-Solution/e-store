@@ -39,14 +39,14 @@ const Navbar = () => {
         <div className="menuIcon">
           <div className="menu">
             {navbarData.map((item) => (
-              <NavLink className="menuItem" to={item.link}>
+              <Link className="menuItem" to={item.link}>
                 {item.name}
-              </NavLink>
+              </Link>
             ))}
           </div>
           <div className="icon">
             {navbarData.map((item) => (
-              <Link className="iconItem" to={item.links}>
+              <Link className="iconItem" to={item.link}>
                 {item.icon}
               </Link>
             ))}

@@ -1,4 +1,8 @@
 import React from "react";
+<<<<<<< HEAD
+=======
+import { Nav } from "react-bootstrap";
+>>>>>>> 25c3b328e5d3ec47d2c8af5f2fa47bd9a69dea05
 import { Link } from "react-router-dom";
 import "./Login.scss";
 const Login = () => {
@@ -41,7 +45,11 @@ const Login = () => {
             <div className="col-sm-12 account">
               <p className="accountDiscription">
                 Don't have an account?
+<<<<<<< HEAD
                 <Link to="/reg">
+=======
+                <Link to="/register">
+>>>>>>> 25c3b328e5d3ec47d2c8af5f2fa47bd9a69dea05
                   <span>Register</span>
                 </Link>
               </p>
