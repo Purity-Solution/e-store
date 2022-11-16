@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Login.scss";
 const Login = () => {
   return (
@@ -41,9 +41,9 @@ const Login = () => {
             <div className="col-sm-12 account">
               <p className="accountDiscription">
                 Don't have an account?
-                <Nav.Link href="reg">
+                <Link to="/reg">
                   <span>Register</span>
-                </Nav.Link>
+                </Link>
               </p>
             </div>
           </div>

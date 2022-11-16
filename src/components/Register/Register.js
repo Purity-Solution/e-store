@@ -1,7 +1,7 @@
 import React from "react";
 import "./Register.scss";
 import Button from "../Button/Button";
-import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const Register = () => {
   return (
     <div className="registerForm">
@@ -134,9 +134,9 @@ const Register = () => {
                   <div className="agreeTerms">
                     <p className="disc">
                       By registering, you agree to Pigeon’s
-                      <Nav.Link href="undifined">
+                      <Link href="undifined">
                         <span>Terms of Use</span>
-                      </Nav.Link>
+                      </Link>
                     </p>
                   </div>
                   <p className="detail">
@@ -151,7 +151,10 @@ const Register = () => {
             </div>
             <div className="col-sm-12 disc">
               <p>
-                Already have an account ?<span>Login</span>
+                Already have an account ?
+                <Link to="/log">
+                  <span>Login</span>
+                </Link>
               </p>
             </div>
           </div>

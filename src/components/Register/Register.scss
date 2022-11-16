@@ -122,11 +122,18 @@
         .disc {
           text-align: center;
           p {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
             font-size: 80%;
-            font-weight: 400;
+            font-weight: 500;
             span {
-              color: #e65550;
-              padding-left: 0.3rem;
+              padding-left: 3px;
+              color: rgb(230, 85, 80);
+              text-decoration: underline;
+              cursor: pointer;
             }
           }
         }
