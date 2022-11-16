@@ -7,16 +7,20 @@ import Contact from "./components/Contact/Contact";
 import Products from "./components/Products/Products";
 import Login from "./components/Login/Login";
 import Cart from "./components/cart/Cart";
+import Register from "./components/Register/Register";
+
 function App() {
   return (
     <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Products" element={<Products />} />
-        <Route path="/log" element={<Login />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
+
+        <Route path="/register" element={<Register />} />
       </Routes>
     </div>
   );

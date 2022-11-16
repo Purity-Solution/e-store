@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./navbar.scss";
 import { navbarData } from "../../helper/constants";
 import { MdShoppingCart } from "react-icons/md";
@@ -13,7 +13,7 @@ const Navbar = () => {
 
   useEffect(() => {
     function handleClickOutside(event) {
-      let isEvent = searchIconRef?.current?.contains(event.target);
+      const isEvent = searchIconRef?.current?.contains(event.target);
       if (searchIconRef && !isEvent) {
         setShowSearch(false);
       }
@@ -46,7 +46,7 @@ const Navbar = () => {
           </div>
           <div className="icon">
             {navbarData.map((item) => (
-              <Link className="iconItem" to={item.links}>
+              <Link className="iconItem" to={item.link}>
                 {item.icon}
               </Link>
             ))}
