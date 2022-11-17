@@ -1,6 +1,4 @@
-import { MdShoppingCart } from "react-icons/md";
-import { GoPerson } from "react-icons/go";
-import { GoSearch } from "react-icons/go";
+import { HiOutlineUser } from "react-icons/hi";
 export const navbarData = [
   {
     name: "Home",
@@ -11,19 +9,12 @@ export const navbarData = [
     link: "/products",
   },
   {
-    name: "Contact",
+    name: "contact",
     link: "/contact",
   },
+
   {
-    icon: <MdShoppingCart />,
-    links: "/cart",
-  },
-  {
-    icon: <GoSearch />,
-    links: "/search",
-  },
-  {
-    icon: <GoPerson />,
-    links: "/log",
+    icon: <HiOutlineUser />,
+    link: "/login",
   },
 ];
