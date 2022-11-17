@@ -1,6 +1,6 @@
 import React from "react";
-import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import CustomButton from "../CustomButton/CustomButton";
 import "./Login.scss";
 const Login = () => {
   return (
@@ -34,11 +34,9 @@ const Login = () => {
               </div>
             </div>
             <div className="col-sm-12 loginButton">
-              <button type="button" className="login">
-                Login
-              </button>
-              <p className="forgotPassword">Forgot Password?</p>
+              <CustomButton name={"Login"} />
             </div>
+            <p className="forgotPassword">Forgot Password?</p>
             <div className="col-sm-12 account">
               <p className="accountDiscription">
                 Don't have an account?
