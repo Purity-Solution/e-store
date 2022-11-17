@@ -1,11 +1,10 @@
-import Footer from "../footer/Footer";
+// import Footer from "../footer/Footer";
 import React from "react";
 import "./Register.scss";
-import Button from "../Button/Button";
 import { Link } from "react-router-dom";
+import CustomButton from "../CustomButton/CustomButton";
 const Register = () => {
   return (
-<<<<<<< HEAD
     <div className="registerForm">
       <div className="reg">
         <span>Register</span>
@@ -149,12 +148,12 @@ const Register = () => {
               </div>
             </div>
             <div className="col-sm-12 registerButton">
-              <Button />
+              <CustomButton name={"Register"} />
             </div>
             <div className="col-sm-12 disc">
               <p>
                 Already have an account ?
-                <Link to="/log">
+                <Link to="/login">
                   <span>Login</span>
                 </Link>
               </p>
@@ -162,10 +161,6 @@ const Register = () => {
           </div>
         </div>
       </div>
-=======
-    <div>
-      <Footer />
->>>>>>> 25c3b328e5d3ec47d2c8af5f2fa47bd9a69dea05
     </div>
   );
 };
