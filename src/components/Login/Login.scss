@@ -50,28 +50,17 @@
           }
         }
         .loginButton {
+          display: flex;
+          justify-content: center;
+        }
+        .forgotPassword {
+          color: rgb(230, 85, 80);
+          text-decoration: underline;
+          cursor: pointer;
+          margin-left: 10px;
+          font-size: 13px;
+          font-weight: 500;
           text-align: center;
-          .login {
-            border: none;
-            border-radius: 4px;
-            width: 180px;
-            font-size: 15px;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-            color: #fff;
-            background-color: #e65550;
-            border-color: #e65550;
-            height: 2.3rem;
-            font-weight: 500;
-          }
-          .forgotPassword {
-            color: rgb(230, 85, 80);
-            text-decoration: underline;
-            cursor: pointer;
-            margin-left: 10px;
-            font-size: 13px;
-            font-weight: 500;
-          }
         }
         .account {
           text-align: center;

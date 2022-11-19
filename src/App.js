@@ -8,7 +8,6 @@ import Products from "./components/Products/Products";
 import Login from "./components/Login/Login";
 import Cart from "./components/cart/Cart";
 import Register from "./components/Register/Register";
-
 function App() {
   return (
     <div>
