@@ -25,7 +25,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div>
+    <div className="navbarWraper">
       <div className="Heading">
         <div className="Logo">
           <Link to="/">
