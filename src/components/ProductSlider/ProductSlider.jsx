@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./productSlider.scss";
 import { productSliders } from "./productSliderApi";
+import { Link } from "react-router-dom";
 const ProductSlider = () => {
   return (
     <div className="container">
