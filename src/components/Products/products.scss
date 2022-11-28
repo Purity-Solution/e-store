@@ -110,6 +110,11 @@
         }
       }
     }
+    .viewButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
   .productSlider {
     background-color: #fff;

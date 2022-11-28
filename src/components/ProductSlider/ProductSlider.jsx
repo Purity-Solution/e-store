@@ -7,6 +7,9 @@ import { productSliders } from "./productSliderApi";
 const ProductSlider = () => {
   return (
     <div className="container">
+      <div className="title">
+        <h3>Recommended Products</h3>
+      </div>
       <Slider {...settings}>
         {productSliders.map((x, i) => (
           <div key={i}>

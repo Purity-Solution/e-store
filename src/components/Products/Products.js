@@ -1,5 +1,5 @@
 import React from "react";
-
+import CustomButton from "../CustomButton/CustomButton";
 import { product } from "./productsApi";
 import { Link } from "react-router-dom";
 import ProductSlider from "../ProductSlider/ProductSlider";
@@ -42,18 +42,11 @@ const Products = () => {
             </div>
           ))}
         </div>
+        <ProductSlider />
+        <div className="viewButton">
+          <CustomButton name={"View All Products"} />
+        </div>
       </div>
-      <ProductSlider />
-      {/* <div className="productSlider">
-        <div className="sectionTitle">
-          <h3>Recommended Products</h3>
-        </div>
-        <div className="carousel">
-          <div className="container">
-            <
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
