@@ -34,7 +34,7 @@ const Products = () => {
                 style={{ backgroundImage: `url(${items.url})` }}
               >
                 <div className="itemWrap">
-                  <Link to="/grid" className="itemText">
+                  <Link to="/productList" className="itemText">
                     <p>{items.text}</p>
                   </Link>
                 </div>

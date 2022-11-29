@@ -1,1 +1,23 @@
-
+.container {
+  .row {
+    padding-top: 5rem;
+    .category {
+      display: flex;
+      justify-content: space-between;
+      column-gap: 30px;
+      .selectProduct {
+        width: 50%;
+        border: 1px solid rgb(230, 85, 80);
+        color: rgb(230, 85, 80);
+        margin-bottom: 10px;
+        height: 5vh;
+        .listNo {
+          color: rgb(102, 102, 102);
+          font-size: 17px;
+          font-weight: 500;
+          height: 5vh;
+        }
+      }
+    }
+  }
+}
