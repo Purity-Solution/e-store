@@ -9,6 +9,7 @@ import Login from "./components/Login/Login";
 import Cart from "./components/cart/Cart";
 import Register from "./components/Register/Register";
 import ProductGrid from "./components/ProductGrid/productGrid";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/grid" element={<ProductGrid />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
