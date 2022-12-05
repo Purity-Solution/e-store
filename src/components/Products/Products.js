@@ -44,7 +44,7 @@ const Products = () => {
         </div>
         <ProductSlider />
         <div className="viewButton">
-          <CustomButton name={"View All Products"} />
+          <CustomButton name={"View All Products"} className="productsButton" />
         </div>
       </div>
     </div>

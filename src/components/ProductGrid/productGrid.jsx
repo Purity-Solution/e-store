@@ -5,6 +5,7 @@ import { lists } from "./productGridApi";
 import { listCategory } from "./productListApi";
 import { option } from "./productOptionApi";
 import { item } from "./productItemApi";
+import { video } from "./productVideoApi";
 const ProductGrid = () => {
   return (
     <div>
@@ -65,6 +66,27 @@ const ProductGrid = () => {
               </div>
             </div>
           ))}
+        </div>
+      </div>
+      <div className="videoSection">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-sm-7">
+              <div className="discription">
+                <p></p>
+              </div>
+            </div>
+            <div className="col-12 col-sm-5">
+              {video.map((x) => (
+                <div className="thumb">
+                  <div
+                    className="videoThum"
+                    style={{ backgroundImage: `url(${x.pigeons})` }}
+                  ></div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

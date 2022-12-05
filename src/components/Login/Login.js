@@ -34,7 +34,7 @@ const Login = () => {
               </div>
             </div>
             <div className="col-sm-12 loginButton">
-              <CustomButton name={"Login"} />
+              <CustomButton name={"Login"} className="login" />
             </div>
             <p className="forgotPassword">Forgot Password?</p>
             <div className="col-sm-12 account">
