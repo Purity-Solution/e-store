@@ -48,7 +48,11 @@
   }
 }
 .container {
+  padding-left: 15px;
+  padding-right: 15px;
   .row {
+    padding-left: 9rem;
+    padding-right: 9rem;
     .gridItem {
       padding-left: 1rem;
       padding-right: 1rem;
@@ -124,7 +128,8 @@
               }
               .currency {
                 color: #e65550 !important;
-                font-weight: 700;
+                font-weight: 500;
+                padding-left: 0.2rem;
               }
             }
           }
@@ -167,6 +172,22 @@
           background-repeat: no-repeat;
         }
       }
+    }
+  }
+}
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  .viewB {
+    background-color: #fff;
+    border: 1px solid #e65550;
+    color: #e65550;
+    &:hover {
+      background-color: #e65550;
+      color: #fff;
     }
   }
 }

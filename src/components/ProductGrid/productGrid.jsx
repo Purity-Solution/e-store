@@ -6,6 +6,9 @@ import { listCategory } from "./productListApi";
 import { option } from "./productOptionApi";
 import { item } from "./productItemApi";
 import { video } from "./productVideoApi";
+import ProductSlider from "../ProductSlider/ProductSlider";
+import CustomButton from "../CustomButton/CustomButton";
+import Pragrancy from "../pragrancySection/Pragrancy";
 const ProductGrid = () => {
   return (
     <div>
@@ -89,6 +92,11 @@ const ProductGrid = () => {
           </div>
         </div>
       </div>
+      <ProductSlider />
+      <div className="view">
+        <CustomButton name="View All Products" className="viewB" />
+      </div>
+      <Pragrancy className="prag" />
     </div>
   );
 };
