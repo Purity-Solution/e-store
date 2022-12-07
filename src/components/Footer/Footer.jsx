@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./footer.scss";
+import "./Footer.scss";
 import facebook1 from "../image/facebook1.png";
 import instagram from "../image/instagram.jpg";
 import youtube3 from "../image/youtube3.jpg";
