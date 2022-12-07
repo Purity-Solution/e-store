@@ -1,4 +1,3 @@
-// import Footer from "../footer/Footer";
 import React from "react";
 import "./Register.scss";
 import { Link } from "react-router-dom";
@@ -148,7 +147,7 @@ const Register = () => {
               </div>
             </div>
             <div className="col-sm-12 registerButton">
-              <CustomButton name={"Register"} />
+              <CustomButton name={"Register"} className="register" />
             </div>
             <div className="col-sm-12 disc">
               <p>

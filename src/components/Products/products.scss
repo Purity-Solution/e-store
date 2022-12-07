@@ -113,6 +113,15 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      .productsButton {
+        color: #e65550;
+        border: 1px solid #e65550;
+        background-color: #fff;
+        &:hover {
+          background-color: #e65550;
+          color: #fff;
+        }
+      }
     }
   }
   .productSlider {
