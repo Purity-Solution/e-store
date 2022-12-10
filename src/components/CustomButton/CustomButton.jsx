@@ -1,12 +1,8 @@
 import React from "react";
 import "./button.scss";
 
-const CustomButton = ({ name, styles }) => {
-  return (
-    <div className="col-sm-12 login">
-      <button className="button">{name}</button>
-    </div>
-  );
+const CustomButton = ({ name, className }) => {
+  return <button className={`button ${className}`}>{name}</button>;
 };
 
 export default CustomButton;

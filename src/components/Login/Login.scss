@@ -1,5 +1,5 @@
 .formName {
-  padding-top: 1rem;
+  padding-top: 5rem;
   .log {
     text-align: center;
     position: relative;
@@ -52,6 +52,10 @@
         .loginButton {
           display: flex;
           justify-content: center;
+          .login {
+            background-color: #e65550;
+            color: #f6f6f6;
+          }
         }
         .forgotPassword {
           color: rgb(230, 85, 80);

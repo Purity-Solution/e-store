@@ -1,5 +1,5 @@
 .registerForm {
-  padding-top: 1rem;
+  padding-top: 5rem;
   .reg {
     display: flex;
     justify-content: center;
@@ -117,6 +117,15 @@
                 font-weight: 400;
               }
             }
+          }
+        }
+        .registerButton {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .register {
+            background-color: #e65550;
+            color: #f6f6f6;
           }
         }
         .disc {
